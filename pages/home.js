@@ -7,7 +7,7 @@ import Meenetwork from "../components/meenetwork";
 const Home = () => {
     return (
         <>
-            <div className="bg-black main-container">
+            <div className=" bg-black  main-container">
                 <Navbar />
                 <Meenetwork page="home" />
                 <Docs  />

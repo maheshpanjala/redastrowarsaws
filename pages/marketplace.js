@@ -10,7 +10,7 @@ const Marketplace = () => {
             <Head>
                 <meta name="viewport" content="width=1024" />
             </Head>
-            <div className="bg-black py-28">
+            <div className="bg-black py-28 main-container">
                 <Navbar />
                 <MarketPlace />
                 <div className="container mx-auto flex justify-center items-center">

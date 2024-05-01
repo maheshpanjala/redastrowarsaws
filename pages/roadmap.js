@@ -9,7 +9,7 @@ const RoadMapPage = () => {
             <Head>
                 <meta name="viewport" content="width=1024" />
             </Head>
-            <div className="bg-black">
+            <div className="bg-black main-container">
                 <Navbar />
                 <RoadMap page="roadmap" />
                 <Footer />

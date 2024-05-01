@@ -9,7 +9,7 @@ const Meenetwork = () => {
             <Head>
                 <meta name="viewport" content="width=1024" />
             </Head>
-            <div className="bg-black" style={{  width: "fit-content"}}>
+            <div className="bg-black main-container" >
                 <Navbar />
                 <MeeNetwork page="meenetwork" />
                 <Footer />

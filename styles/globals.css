@@ -341,8 +341,19 @@ height: 280px;
 }
 
 .main-container {
-  width: fit-content;
   height: 100%;
+}
+
+.main-container {
+  width: fit-content; 
+  height: 100%;
+
+}
+
+@media only screen and (min-width: 601px) {
+  .main-container {
+    width: auto; 
+  }
 }
 
 .nav-div {
