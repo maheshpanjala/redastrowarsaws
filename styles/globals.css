@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face {
+  font-family: "kilbybold";
+  src: url("../styles/KILBY-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+  font-family: "kilbybold";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-333 {
+  background: rgb(3, 3, 3) !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.bgDiv.jsx-723f888af15166ed {
+  background-size: cover !important;
+}
+
+.activeLink {
+  padding: 5px 0;
+  color: #ef4444;
+  border-bottom: 1px solid #ef4444 !important;
+  -webkit-box-shadow: 0 2px -6px 16px #ef4444;
+  -moz-box-shadow: 0 2px -6px 16px #ef4444;
+  box-shadow: 0 2px -6px 16px #ef4444;
+}
+
+.op0 {
+  opacity: 0.8;
+}
+
+.slider-item-marg-top {
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse))) !important;
+}
+
+.btn-rt-curv {
+  -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%);
+}
+
+.btn-rt-btm-curv {
+  -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.marg-10 {
+  margin-right: 10.5rem !important;
+}
+
+.marg-9 {
+  margin-right: 9.8rem !important;
+}
+
+.btn-c {
+  border-radius: 1.25em;
+}
+
+.h-1800 {
+  min-height: 1800px;
+}
+
+.w-1000 {
+  max-width: 1000px !important;
+}
+
+.mint-btn img {
+  position: relative;
+  top: 0;
+}
+
+.mint-btn img:hover {
+  cursor: pointer !important;
+  box-shadow: 0px 0px 10px #fff !important;
+}
+
+.leftright {
+  left: 0;
+  right: 0;
+}
+
+.align-center {
+  align-items: center;
+  gap: 20px;
+}
+
+.avatarCard {
+  overflow: auto !important;
+}
+
+.br-rd span {
+  border: 2px solid #fff !important;
+  border-radius: 1.25em;
+  overflow: hidden !important;
+}
+
+.avatarCard img {
+  top: -20px !important;
+}
+
+.bg-home {
+  background-image: url("/redastrowars-homebanner.jpg") !important;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.bg-landing {
+  background: url("/redastrowars-landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.zoom {
+  animation: scale 40s linear infinite;
+}
+
+@keyframes scale {
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.homeLandingOverlay.jsx-2877e12ab6539e10 {
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.martianverseDiv.jsx-9e9bfa10ea593e70 {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.navRoutLink {
+  font-family: Chakra Petch;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 42.64px;
+  letter-spacing: 1.199245810508728px;
+  text-align: center;
+  color: #FFFFA0;
+}
+
+.launch-button {
+  width: 172px;
+  height: 42px;
+  top: 51px;
+  left: 1231px;
+  padding: 9.99px 24.36px 8.01px 15.64px;
+  gap: 0px;
+  border-radius: 24px;
+  border: 1px solid #FFFFFF;
+  opacity: 0px;
+  color: #FFFFA0;
+
+
+}
+
+.main-container {
+  border: 1px solid #FFFFA0;
+}
+
+.nav-div {
+  height: 144.75px;
+  top: -0.84px;
+  left: 38px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.span-line, .span-small-ball, .span-big-ball {
+  display: inline-block; /* Allows setting width and height */
+  vertical-align: middle; /* Aligns the items vertically in the center if necessary */
+}
+
+.span-line {
+  width: 177px;
+  height: 1px;
+  background: linear-gradient(90deg, #FFFFFF 29.35%, rgba(255, 255, 255, 0) 97.73%);
+  margin: 0 5px; /* Add margin to separate from balls */
+}
+
+.span-small-ball {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; /* Makes it a circle */
+  background: #FFFFFF;
+  margin: 0 5px; /* Add margin to separate from line and text */
+}
+
+.span-big-ball {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%; /* Makes it a circle */
+  background: #FFFFFF;
+  margin: 0 5px; /* Add margin to separate from line and text */
+}
+
+.header-text {
+  color: #FFFFA0; /* Adjusted color code */
+  margin: 0 10px; /* Ensures text is properly spaced */
+}
+.min-h-screen {
+  background: url("/avatar/avatarBanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gaming-aggregator {
+  width: 205;
+  height: 254;
+  color: #FFFFA0;
+}
+
+.mee-text-p {
+  font-family: Chakra Petch;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.sub-main {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+@media(max-width: 500px) {
+  .main-head-text {
+    font-size: 35px !important;
+
+  }
+}
