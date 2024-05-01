@@ -341,7 +341,8 @@ height: 280px;
 }
 
 .main-container {
-  border: 1px solid #FFFFA0;
+  width: fit-content;
+  height: 100%;
 }
 
 .nav-div {

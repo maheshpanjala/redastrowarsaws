@@ -9,7 +9,7 @@ const DocsPage = () => {
             <Head>
                 <meta name="viewport" content="width=1024" />
             </Head>
-            <div className="bg-black">
+            <div className="bg-black" style={{  width: "fit-content"}}>
                 <Navbar /> 
                 <div className="absolute leftright bottom-10 mx-auto left-1/2 flex justify-center mx-auto items-center">
             </div>
