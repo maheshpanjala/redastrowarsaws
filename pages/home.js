@@ -2,7 +2,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Passes from "../components/passes";
 import Docs from "../components/docs";
-import Meenetwork from "../components/meeNetwork";
+import Meenetwork from "../components/meenetwork";
 
 const Home = () => {
     return (
