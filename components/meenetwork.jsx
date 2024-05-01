@@ -30,7 +30,10 @@ const Meenetwork = ({ page }) => {
                             <p className="m-5  text-[11px] md:text-[18px] mee-text-p" style={{textAlign:'start', paddingLeft:'30px'}}>
                                 The platform offers a robust ecosystem that supports game developers through easy integration tools, access to a built-in  audience, and multiple monetization avenues, including a dynamic NFT marketplace. For investors, Mee Games represents a cutting-edge opportunity in the growing intersection of gaming and decentralized finance, promising both growth and scalability in a thriving market.
                             </p>
+                            <div className="flex justify-center">
+
                             <div className="gameRoom  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px] flex flex-col justify-end">
+                            </div>
                             </div>
                         </div>
                         

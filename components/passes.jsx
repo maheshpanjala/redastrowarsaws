@@ -17,7 +17,10 @@ const Passes = ({ page }) => {
                         </div>
                     </div>
                     <div className="flex h-[40px]"></div>
-                    <div className="interoperable-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px]  flex flex-col justify-end">
+                    <div className="flex justify-center">
+
+                        <div className="interoperable-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px]  flex flex-col justify-end">
+                        </div>
                     </div>
                     <div className="flex h-[100px]"></div>
                     <div className="flex justify-center">
@@ -31,7 +34,10 @@ const Passes = ({ page }) => {
                             <span className="span-line"></span>
                         </div>
                     </div>
-                    <div className="tokenomics-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px] flex flex-col justify-end">
+                    <div className="flex justify-center">
+
+                        <div className="tokenomics-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px] flex flex-col justify-end">
+                        </div>
                     </div>
                     <div className="flex h-[40px]"></div>
 
@@ -47,8 +53,10 @@ const Passes = ({ page }) => {
                         </div>
                     </div>
                     <div className="flex h-[40px]"></div>
+                    <div className="flex justify-center">
 
-                    <div className="roadmap-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px]  flex flex-col justify-end">
+                        <div className="roadmap-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px]  flex flex-col justify-end">
+                        </div>
                     </div>
                 </div>
             </>
