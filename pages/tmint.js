@@ -357,19 +357,6 @@ const Mint = () => {
                     </div>
                 </div>
             </div>
-            <style jsx>{`
-                .mintBg {
-                    background-image: url("/svg/mintBg.svg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center center;
-                }
-
-                .active {
-                    background: white;
-                    color: black;
-                }
-            `}</style>
         </>
     );
 };

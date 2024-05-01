@@ -48,14 +48,7 @@ const Marketplace = () => {
                 </div>
                 <Footer />
             </div>
-            <style jsx>{`
-                .rawFrame {
-                    background-image: url("/marketplace/rawFrame.png");
-                    background-size: contain;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                }
-            `}</style>
+            
         </>
     );
 };

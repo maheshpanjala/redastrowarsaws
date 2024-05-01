@@ -91,7 +91,163 @@ body {
   position: relative;
   top: 0;
 }
+.mintBg {
+  background-image: url("/svg/mintBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
+.active {
+  background: white;
+  color: black;
+}
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-button-next {
+  display: block !important;
+}
+.avatarCard {
+  
+  background: #262626;
+  box-shadow: 0px 0px 60px -30px rgba(255, 255, 255, 0.15);
+  transition: all 200ms ease-out;
+}
+
+.avatarCard:hover {
+  box-shadow: 0px 0px 23px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  transition: all 200ms ease-in;
+}
+
+.avatarCard:hover p {
+  font-weight: bold;
+}
+.gameover {
+  background-image: url("/gameover.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gameRoom {
+  background-image: url("/gameroom.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-bg {
+  background-image: url("/banner.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.span-line, .span-small-ball, .span-big-ball {
+  display: inline-block; /* Allows setting width and height */
+  vertical-align: middle; /* Aligns the items vertically in the center if necessary */
+}
+
+.span-line {
+  width: 177px;
+  height: 1px;
+  background: linear-gradient(90deg, #FFFFFF 29.35%, rgba(255, 255, 255, 0) 97.73%);
+  margin: 0 5px; /* Add margin to separate from balls */
+}
+
+.span-small-ball {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; /* Makes it a circle */
+  background: #FFFFFF;
+  margin: 0 5px; /* Add margin to separate from line and text */
+}
+
+.span-big-ball {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%; /* Makes it a circle */
+  background: #FFFFFF;
+  margin: 0 5px; /* Add margin to separate from line and text */
+}
+
+.header-text {
+  color: #FFFFA0; /* Adjusted color code */
+  margin: 0 10px; /* Ensures text is properly spaced */
+}
+
+.h3 {
+  color: gray;
+  text-align: center;
+  margin-top: 10px;
+}
+.header {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.interoperable-bg {
+  background-image: url("/interoperable.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tokenomics-bg{
+  background-image: url("/tokenomics.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.roadmap-bg{
+  background-image: url("/meroadmap.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgDiv {
+  background-image: url("/roadmap/bgDiv.svg");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.roadmapImageDiv {
+background-image: url("/roadmap.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 280px;
+}
+
+.roadmapOverlay {
+background-image: url("/roadmapOverlay.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 280px;
+}
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-button-next {
+  display: block !important;
+}
+.rawFrame {
+  background-image: url("/marketplace/rawFrame.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mintBg {
+  background-image: url("/svg/mintBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.mint-active {
+  background: white;
+  color: black;
+}
 .mint-btn img:hover {
   cursor: pointer !important;
   box-shadow: 0px 0px 10px #fff !important;

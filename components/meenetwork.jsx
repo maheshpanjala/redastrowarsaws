@@ -36,61 +36,7 @@ const Meenetwork = ({ page }) => {
                         
                     </div>
                 </div>
-                <style jsx>{`
-            .gameRoom {
-                background-image: url("/gameroom.png");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            .banner-bg {
-                background-image: url("/banner.png");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            .span-line, .span-small-ball, .span-big-ball {
-                display: inline-block; /* Allows setting width and height */
-                vertical-align: middle; /* Aligns the items vertically in the center if necessary */
-            }
-            
-            .span-line {
-                width: 177px;
-                height: 1px;
-                background: linear-gradient(90deg, #FFFFFF 29.35%, rgba(255, 255, 255, 0) 97.73%);
-                margin: 0 5px; /* Add margin to separate from balls */
-            }
-            
-            .span-small-ball {
-                width: 8px;
-                height: 8px;
-                border-radius: 50%; /* Makes it a circle */
-                background: #FFFFFF;
-                margin: 0 5px; /* Add margin to separate from line and text */
-            }
-            
-            .span-big-ball {
-                width: 16px;
-                height: 16px;
-                border-radius: 50%; /* Makes it a circle */
-                background: #FFFFFF;
-                margin: 0 5px; /* Add margin to separate from line and text */
-            }
-            
-            .header-text {
-                color: #FFFFA0; /* Adjusted color code */
-                margin: 0 10px; /* Ensures text is properly spaced */
-            }
-
-            .h3 {
-                color: gray;
-                // font-size: 1.5em;
-                text-align: center;
-                margin-top: 10px;
-            }
-            
-
-            `}</style>
+                
             </>
         )
     }

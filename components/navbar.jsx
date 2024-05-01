@@ -117,13 +117,6 @@ const Navbar = () => {
             </div>
           </div>
         </header>
-        <style>{`
-              .header {
-                background: rgba(0, 0, 0, 0.3);
-                backdrop-filter: blur(20px);
-                -webkit-backdrop-filter: blur(20px);
-              }
-            `}</style>
       </>
     );
   }
@@ -247,13 +240,6 @@ const Navbar = () => {
             <div></div>
           </div>
         </header>
-        <style>{`
-              .header {
-                background: rgba(0, 0, 0, 0.3);
-                backdrop-filter: blur(20px);
-                -webkit-backdrop-filter: blur(20px);
-              }
-            `}</style>
       </>
     );
   }
@@ -351,14 +337,6 @@ const Navbar = () => {
           <div></div>
         </div>
       </header>
-
-      <style>{`
-          .header {
-            background: rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-          }
-        `}</style>
     </>
   );
 }

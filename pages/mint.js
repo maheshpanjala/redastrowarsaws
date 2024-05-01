@@ -372,15 +372,9 @@ const Mint = () => {
                     setVal(1);
                     document
                       .getElementsByClassName("mint1")[0]
-                      .classList.add("active");
+                      .classList.add("mint-active");
                     console.log("2");
                     setMintbtn("Selected 1 NFT");
-                    // document
-                    //     .getElementsByClassName("mint2")[0]
-                    //     .classList.remove("active");
-                    // document
-                    //     .getElementsByClassName("mint3")[0]
-                    //     .classList.remove("active");
                   }}
                 >
                   {mintBtn ?? "Select 1 NFT"}
@@ -395,15 +389,10 @@ const Mint = () => {
                     setVal(1);
                     document
                       .getElementsByClassName("mint1")[0]
-                      .classList.add("active");
+                      .classList.add("mint-active");
                     console.log("3");
                     setMintbtn("Selected 1 NFT");
-                    // document
-                    //     .getElementsByClassName("mint2")[0]
-                    //     .classList.remove("active");
-                    // document
-                    //     .getElementsByClassName("mint3")[0]
-                    //     .classList.remove("active");
+                    
                   }}
                 >
                   {mintBtn ?? "Select 1 NFT"}
@@ -418,16 +407,11 @@ const Mint = () => {
                     setVal(1);
                     document
                       .getElementsByClassName("mint1")[0]
-                      .classList.add("active");
+                      .classList.add("mint-active");
                     console.log("4");
 
                     setMintbtn("Selected 1 NFT");
-                    // document
-                    //     .getElementsByClassName("mint2")[0]
-                    //     .classList.remove("active");
-                    // document
-                    //     .getElementsByClassName("mint3")[0]
-                    //     .classList.remove("active");
+                    
                   }}
                 >
                   {mintBtn ?? "Select 1 NFT"}
@@ -549,18 +533,7 @@ const Mint = () => {
           </div>
         </div>
       </div>
-      <style>{`
-        .mintBg {
-          background-image: url("/svg/mintBg.svg");
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center center;
-        }
-        .active {
-          background: white;
-          color: black;
-        }
-      `}</style>
+     
     </>
   );
 };

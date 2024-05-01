@@ -73,14 +73,7 @@ const Footer = () => {
                 </div>
 
             </div>
-             <style jsx>{`
-            .gameover {
-                background-image: url("/gameover.png");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            `}</style> 
+             
         </>
     )
 }

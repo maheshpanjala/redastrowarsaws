@@ -51,26 +51,6 @@ const Passes = ({ page }) => {
                     <div className="roadmap-bg  md:rounded-[0px] w-[327px] h-[486px] md:w-[1200px]  flex flex-col justify-end">
                     </div>
                 </div>
-                <style jsx>{`
-            .interoperable-bg {
-                background-image: url("/interoperable.png");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            .tokenomics-bg{
-                background-image: url("/tokenomics.png");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            .roadmap-bg{
-                background-image: url("/meroadmap.png");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-            `}</style>
             </>
         )
     }

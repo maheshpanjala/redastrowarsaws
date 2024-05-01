@@ -22,26 +22,6 @@ const AvatarCard = ({ avatar, name, desc }) => {
                     </p>
                 </div>
             </div>
-            <style jsx>{`
-            .avatarCard {
-                // width: 310px;
-                // height: 413px;
-                background: #262626;
-                box-shadow: 0px 0px 60px -30px rgba(255, 255, 255, 0.15);
-                // border-radius: 24px;
-                transition: all 200ms ease-out;
-            }
-
-            .avatarCard:hover {
-                box-shadow: 0px 0px 23px 8px rgba(255, 255, 255, 0.2);
-                transform: scale(1.05);
-                transition: all 200ms ease-in;
-            }
-
-            .avatarCard:hover p {
-                font-weight: bold;
-            }
-            `}</style>
         </>
     );
 }

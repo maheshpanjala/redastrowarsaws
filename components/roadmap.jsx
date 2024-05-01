@@ -151,23 +151,7 @@ const Roadmap = ({ page }) => {
             //                 ))}
             //             </div>
             //         </div>
-            //         <style jsx>{`
-            // .roadmapImageDiv {
-            //     background-image: url("/roadmap.png");
-            //     background-size: cover;
-            //     background-position: center;
-            //     background-repeat: no-repeat;
-            //     height: 180px;
-            // }
-
-            // .roadmapOverlay {
-            //     background-image: url("/roadmapOverlay.png");
-            //     background-size: cover;
-            //     background-position: center;
-            //     background-repeat: no-repeat;
-            //     height: 180px;
-            // }
-            // `}</style>
+            
             //     </>
             // )
         } else if (page === "roadmap") {
@@ -262,29 +246,7 @@ const Roadmap = ({ page }) => {
                             </div>
                         </div>
                     </div>
-                    <style jsx>{`
-                    .bgDiv {
-                        background-image: url("/roadmap/bgDiv.svg");
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-                    }
-            .roadmapImageDiv {
-                background-image: url("/roadmap.png");
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                height: 280px;
-            }
-
-            .roadmapOverlay {
-                background-image: url("/roadmapOverlay.png");
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                height: 280px;
-            }
-            `}</style>
+                    
                 </>
             )
         }

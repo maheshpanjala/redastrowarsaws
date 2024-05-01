@@ -235,15 +235,7 @@ const AssetsSliderCard = (props) => {
             <BiChevronsRight className="swiperNext text-white w-14 h-14" />
           </div>
         </div>
-        <style jsx>{`
-          .swiper-button-prev {
-            display: none !important;
-          }
-
-          .swiper-button-next {
-            display: block !important;
-          }
-        `}</style>
+       
       </>
     );
 }
