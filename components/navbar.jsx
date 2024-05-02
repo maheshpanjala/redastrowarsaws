@@ -4,6 +4,11 @@ import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import { useState, useEffect } from 'react';
 import { useRouter } from "next/router";
+import {
+  ConnectButton
+} from "@rainbow-me/rainbowkit";
+import { useAccount } from 'wagmi';
+
 const Navbar = () => {
   const [mode, setMode] = useState(null);
   const location = useRouter();
@@ -12,6 +17,7 @@ const Navbar = () => {
   useEffect(() => {
     setUrl(location.pathname);
   }, [location]);
+  const { address, isConnected } = useAccount()
 
   if (mode === "open") {
     return (
@@ -324,15 +330,25 @@ const Navbar = () => {
                 </p>
               </div>
             </Link>
+            {
+                            isConnected ? (
+                                <></>
+                            ) : (
+                              <Link href="#" passHref >
+                              <div className="flex flex-col items-center justify-center cursor-pointer" style={{ padding: '10px 14px', marginLeft: '40px' }}>
+                
+                                <button className={
+                                    "text-[16px]" +
+                                    (url === "/" ? " launch-button" : " launch-button")
+                                  }>LAUNCH APP</button>
+                              </div>
+                            </Link>
+                            )
+                        }
             
-            <Link href="#" passHref >
-              <div className="flex flex-col items-center justify-center cursor-pointer" style={{ padding: '10px 14px', marginLeft: '40px' }}>
-                <button className={
-                    "text-[16px]" +
-                    (url === "/" ? " launch-button" : " launch-button")
-                  }>LAUNCH APP</button>
+            <div className="flex flex-col items-center justify-center cursor-pointer" style={{ padding: '10px 14px', marginLeft: '40px' }}>
+            <ConnectButton />
               </div>
-            </Link>
           </div>
           <div></div>
         </div>
