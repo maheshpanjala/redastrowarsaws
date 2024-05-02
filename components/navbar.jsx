@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { HiMenu } from "react-icons/hi";
-import { IoClose } from "react-icons/io5";
 import { useState, useEffect } from 'react';
 import { useRouter } from "next/router";
 import {
@@ -44,11 +43,11 @@ const Navbar = () => {
                   }}
                 />
                 <HiMenu
-                className=" w-7 h-7"
-                onClick={() => {
-                  setMode("close");
-                }}
-              />
+                  className=" w-7 h-7"
+                  onClick={() => {
+                    setMode("close");
+                  }}
+                />
               </div>
             </div>
             <div className="md:flex mx-5 md:mx-0 flex-col md:flex-row justify-center md:justify-around text-white text-sm w-[868px] space-y-5 md:space-y-0 bg-black md:bg-transparent mt-5 md:mt-0 py-5 md:py-0">
@@ -108,17 +107,17 @@ const Navbar = () => {
                   </p>
                 </div>
               </Link>
-    
+
               <Link href="#" passHref >
-              <div className="flex flex-col items-center justify-center cursor-pointer" >
+                <div className="flex flex-col items-center justify-center cursor-pointer" >
 
-              <button style={{
-                borderRadius: '24px', border: '1px solid #FFFFFF', width: '172px',
-                height: '42px',
+                  <button style={{
+                    borderRadius: '24px', border: '1px solid #FFFFFF', width: '172px',
+                    height: '42px',
 
-                padding: '9.99px 24.36px 8.01px 15.64px'
-              }}> LAUNCH APP </button>
-               </div>
+                    padding: '9.99px 24.36px 8.01px 15.64px'
+                  }}> LAUNCH APP </button>
+                </div>
               </Link>
             </div>
           </div>
@@ -257,13 +256,13 @@ const Navbar = () => {
           <div className="flex w-full md:w-auto mx-5 md:mx-0 justify-between md:justify-start">
             {/* <div> */}
             <Link href="/" passHref>
-            <Image
-                    src="/logo.png"
-                    alt="logo"
-                    width={150}
-                    height={124}
-                    className="cursor-pointer"
-                  />
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={150}
+                height={124}
+                className="cursor-pointer"
+              />
             </Link>
             <div className="md:hidden text-white flex justify-center items-center">
               <HiMenu
@@ -284,10 +283,10 @@ const Navbar = () => {
             <Link href="/home" passHref>
               <div className="flex flex-col items-center justify-center cursor-pointer">
                 <p
-                 className={
-                  "text-[20px]" +
-                  (url === "/home" ? " activeLink" : " navRoutLink")
-                }
+                  className={
+                    "text-[20px]" +
+                    (url === "/home" ? " activeLink" : " navRoutLink")
+                  }
                 >
                   About
                 </p>
@@ -305,7 +304,7 @@ const Navbar = () => {
                 </p>
               </div>
             </Link>
-          
+
             <Link href="/tokenomics" passHref>
               <div className="flex flex-col items-center justify-center cursor-pointer">
                 <p
@@ -331,24 +330,23 @@ const Navbar = () => {
               </div>
             </Link>
             {
-                            isConnected ? (
-                                <></>
-                            ) : (
-                              <Link href="#" passHref >
-                              <div className="flex flex-col items-center justify-center cursor-pointer" style={{ padding: '10px 14px', marginLeft: '40px' }}>
-                
-                                <button className={
-                                    "text-[16px]" +
-                                    (url === "/" ? " launch-button" : " launch-button")
-                                  }>LAUNCH APP</button>
-                              </div>
-                            </Link>
-                            )
-                        }
-            
+              isConnected ? (
+                <></>
+              ) : (
+                <Link href="#" passHref >
+                  <div className="flex flex-col items-center justify-center cursor-pointer" style={{ padding: '10px 14px', marginLeft: '40px' }}>
+
+                    <button className={
+                      "text-[16px]" +
+                      (url === "/" ? " launch-button" : " launch-button")
+                    }>LAUNCH APP</button>
+                  </div>
+                </Link>
+              )
+            }
             <div className="flex flex-col items-center justify-center cursor-pointer" style={{ padding: '10px 14px', marginLeft: '40px' }}>
-            <ConnectButton />
-              </div>
+              <ConnectButton />
+            </div>
           </div>
           <div></div>
         </div>
