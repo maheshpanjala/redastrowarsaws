@@ -38,7 +38,7 @@ const Navbar = () => {
                   }}
                 />
                 <HiMenu
-                className="w-7 h-7"
+                className=" w-7 h-7"
                 onClick={() => {
                   setMode("close");
                 }}
