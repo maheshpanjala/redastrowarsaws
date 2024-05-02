@@ -7,9 +7,6 @@ import Head from "next/head";
 const Marketplace = () => {
     return (
         <>
-            <Head>
-                <meta name="viewport" content="width=1024" />
-            </Head>
             <div className="bg-black py-28 main-container">
                 <Navbar />
                 <MarketPlace />

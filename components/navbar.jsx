@@ -37,12 +37,12 @@ const Navbar = () => {
                     setMode("open");
                   }}
                 />
-                <IoClose
-                  className="w-7 h-7"
-                  onClick={() => {
-                    setMode("close");
-                  }}
-                />
+                <HiMenu
+                className="w-7 h-7"
+                onClick={() => {
+                  setMode("close");
+                }}
+              />
               </div>
             </div>
             <div className="md:flex mx-5 md:mx-0 flex-col md:flex-row justify-center md:justify-around text-white text-sm w-[868px] space-y-5 md:space-y-0 bg-black md:bg-transparent mt-5 md:mt-0 py-5 md:py-0">
@@ -144,7 +144,7 @@ const Navbar = () => {
                     setMode("open");
                   }}
                 />
-                <IoClose
+                <HiMenu
                   className="hidden w-7 h-7"
                   onClick={() => {
                     setMode("close");
@@ -266,7 +266,7 @@ const Navbar = () => {
                   setMode("open");
                 }}
               />
-              <IoClose
+              <HiMenu
                 className="hidden w-7 h-7"
                 onClick={() => {
                   setMode("close");
