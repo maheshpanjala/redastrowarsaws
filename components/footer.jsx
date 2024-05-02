@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="flex flex-col space-y-10 md:mx-48 py-10">
                     <div className="flex flex-col md:flex-row justify-around items-center space-y-10 md:space-y-0">
 
-                        <div class="logo">
+                        <div className="logo">
                             <Image
                                 src="/logo.png"
                                 alt="Logo"
@@ -21,14 +21,14 @@ const Footer = () => {
                             />
                         </div>
                         <div className="flex flex-row">
-                            <nav class="footer-nav">
+                            <nav className="footer-nav">
                                 <ul>
                                     <li><a href="#about">About Mee</a></li>
                                     <li><a href="#deck">Mee Deck</a></li>
                                     <li><a href="#whitepaper">Whitepaper</a></li>
                                 </ul>
                             </nav>
-                            <nav class="footer-nav">
+                            <nav className="footer-nav">
                                 <ul>
                                     <li><a href="#features">Mee features</a></li>
                                     <li><a href="#tokenomics">Tokenomics</a></li>
@@ -38,11 +38,11 @@ const Footer = () => {
                         </div>
 
                         <div className="flex flex-col">
-                            <div class="newsletter">
+                            <div className="newsletter">
                                 <input type="email" placeholder="Enter your email" />
                                 <button>Subscribe</button>
                             </div>
-                            <div class="social-icons">
+                            <div className="social-icons">
                                 <span>X</span>
                                 <span>😊</span>
                                 <span>🔔</span>
