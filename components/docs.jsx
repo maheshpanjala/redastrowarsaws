@@ -3,11 +3,21 @@ import AdvancedApes from "./advancedApes";
 const Docs = ({ page }) => {
 
   const pageCheck = (page) => {
-    return (
-      <>
-        <AdvancedApes page="home" />
-      </>
-    )
+    if (page === "home") {
+      return (
+        <>  
+          <AdvancedApes page="home" />
+        </>
+      )
+    }else if (page === "docs") {
+      return (
+        <>
+          <div className="flex h-[170px]"></div>
+          <AdvancedApes page="home" />
+        </>
+      )
+    }
+    
   }
 
   return (

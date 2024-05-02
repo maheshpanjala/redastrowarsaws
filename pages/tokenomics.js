@@ -8,7 +8,6 @@ const TokenomicsPage = () => {
         <>
             <div className="bg-black main-container" >
                 <Navbar />
-                
                 <Tokenomics />
                 <Footer />
             </div>

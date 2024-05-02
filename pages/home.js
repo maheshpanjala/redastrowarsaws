@@ -10,7 +10,7 @@ const Home = () => {
             <div className=" bg-black  main-container">
                 <Navbar />
                 <Meenetwork page="home" />
-                <Docs  />
+                <Docs page="home"/>
                 <Passes />
                 <Footer />
             </div>

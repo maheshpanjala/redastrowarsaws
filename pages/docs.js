@@ -10,6 +10,7 @@ const DocsPage = () => {
                 <Navbar />
                 <div className="absolute leftright bottom-10 mx-auto left-1/2 flex justify-center mx-auto items-center">
                 </div>
+                <div></div>
                 <Docs page="docs" />
                 <Footer />
             </div>
