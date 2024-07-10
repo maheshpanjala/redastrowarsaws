@@ -1,0 +1,36 @@
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: #eeeeee;
+    top: -100px;
+    bottom: -100px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timelineItem {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    left: 31%;
+}
+
+.timelineItem::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -17px;
+    background-image: url("/roadmapLegend.png");
+    top: 10px;
+    left: -35px;
+    z-index: 10;
+}
