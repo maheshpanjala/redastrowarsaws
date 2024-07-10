@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import Marketplace1 from "../public/marketplace/marketplace1.png";
-import Marketplace2 from "../public/marketplace/marketplace2.png";
-import Marketplace3 from "../public/marketplace/marketplace3.png";
+import Marketplace1 from "../../public/marketplace/marketplace1.png";
+import Marketplace2 from "../../public/marketplace/marketplace2.png";
+import Marketplace3 from "../../public/marketplace/marketplace3.png";
 
 const Marketplace = () => {
     const data = [
