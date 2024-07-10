@@ -11,7 +11,8 @@ import { alchemyProvider } from 'wagmi/providers/alchemy';
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
-const alchemyApiKey: string | undefined = process.env.NEXT_PUBLIC_ALCHEMY_API_KEY;
+const alchemyApiKey: any  = process.env.NEXT_PUBLIC_ALCHEMY_API_KEY;
+const obj = { apiKey: alchemyApiKey }
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [
     ...(process.env.NEXT_PUBLIC_ENABLE_TESTNET === "true"
@@ -19,7 +20,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
       : [bsc]),
   ],
   [
-    alchemyProvider({ apiKey: alchemyApiKey }),
+    alchemyProvider({apiKey:alchemyApiKey}),
     publicProvider(),
   ]
 );
